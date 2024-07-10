@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    max-height: 60px; /* Increased size */
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 30px; /* Increased spacing */
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px; /* Increased font size */
+  }
+  
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+    position: relative;
+  }
+  
+  .hero-content {
+    position: absolute;
+    right: 60%;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #fff;
+    padding: 20px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px; 
+    max-width: 40%;
+  }
+  
+  
+  .hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  
+  .hero-image {
+    max-width: 60%;
+    text-align: right;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .future {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .future img {
+    width: 65vw;
+    height: 70vh;
+    object-position: 20px;
+  }
+  
+  .future-content {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .future h2 {
+    margin: 0 0 10px;
+    font-size: 36px;
+    color: black;
+  }
+  
+  .future p {
+    margin: 0;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .feature {
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    width: 200px;
+    justify-content: center;
+    font-weight: bolder;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+  
+  .feature-content {
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  
+  .feature img {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+  }
+  
+  .feature h3 {
+    color: black;
+    font-size: 2em;
+  }
+  
+  .feature p {
+    font-size: 1em;
+    color: black;
+    margin: 0 auto;
+    max-width: 600px;
+  }
+  
+  .feature h4, .feature h5, .feature h6, .feature h7 {
+    font-size: 2em;
+  }
+  
+  .feature p {
+    color: black;
+    margin: 0 auto;
+    max-width: 600px;
+    font-size: 1em;
+  }
+  
